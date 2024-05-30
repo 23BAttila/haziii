@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.15);
+  }
+  h1{
+    padding-left: 10%;
+    color: #ffffff;
+    font-size: 100px;
+  }
+  
+  body{
+    background-color: rgb(47, 47, 65);
+    margin-left: 2%;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+    flex-direction: column; 
+  }
